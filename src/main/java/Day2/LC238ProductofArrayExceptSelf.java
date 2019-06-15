@@ -52,7 +52,7 @@ public class LC238ProductofArrayExceptSelf {
     // 优化空间到O(1), 其实还是一样的方法，就是用一个变量存下从后往前除了当前元素的以外其他元素的乘积
     public static int[] productExceptSelf2(int[] nums) {
         if (nums == null || nums.length == 0) {
-            return res;
+            return nums;
         }
 
         int n = nums.length;
