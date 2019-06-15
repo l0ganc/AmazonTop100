@@ -1,3 +1,5 @@
+package Day1;
+
 import java.util.HashSet;
 
 public class LC3LongestSubstringWithoutRepeatingCharacters {
