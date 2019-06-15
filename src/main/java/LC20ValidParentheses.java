@@ -64,5 +64,6 @@ public class LC20ValidParentheses {
         System.out.println(isValid("()[]{}"));
         System.out.println(isValid("(]"));
         System.out.println(isValid("([)]"));
+        System.out.println(isValid("((("));
     }
 }
