@@ -46,7 +46,7 @@ public class LC20ValidParentheses {
                     return false;
                 }
             } else if (c == ')') {
-                if (stack.isEmpty() | stack.pop() != '(') {
+                if (stack.isEmpty() || stack.pop() != '(') {
                     return false;
                 }
             } else if (c == ']') {
