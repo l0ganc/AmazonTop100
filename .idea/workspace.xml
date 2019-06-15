@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fed4e7c-fe5f-40c3-b92f-42b369bd6abb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/LC771JewelsandStones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day2/LC49GroupAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Day1/LC42TrappingRainWater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Day1/LC146LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +104,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Day2/LC771JewelsandStones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="330">
+              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Day2/LC49GroupAnagrams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -157,6 +157,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Day2/LC238ProductofArrayExceptSelf.java" />
         <option value="$PROJECT_DIR$/src/main/java/Day2/LC297SerializeandDeserializeBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/Day2/LC138CopyListWithRandomPointer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Day2/LC771JewelsandStones.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Day2/LC49GroupAnagrams.java" />
       </list>
     </option>
   </component>
@@ -227,7 +229,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560640700230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560641015778" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -247,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC238ProductofArrayExceptSelf">
+  <component name="RunManager" selected="Application.LC49GroupAnagrams">
     <configuration name="LC121BestTimetoBuyandSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day2.LC121BestTimetoBuyandSellStock" />
       <module name="AmazonTop100" />
@@ -288,20 +290,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC42TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day1.LC42TrappingRainWater" />
+    <configuration name="LC49GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day2.LC49GroupAnagrams" />
       <module name="AmazonTop100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC49GroupAnagrams" />
         <item itemvalue="Application.LC238ProductofArrayExceptSelf" />
         <item itemvalue="Application.LC121BestTimetoBuyandSellStock" />
         <item itemvalue="Application.LC20ValidParentheses" />
         <item itemvalue="Application.LC3LongestSubstringWithoutRepeatingCharacters" />
-        <item itemvalue="Application.LC42TrappingRainWater" />
       </list>
     </recent_temporary>
   </component>
@@ -316,12 +324,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559877486448</updated>
       <workItem from="1559877490463" duration="1082000" />
-      <workItem from="1560546183953" duration="11235000" />
+      <workItem from="1560546183953" duration="11491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12317000" />
+    <option name="totallyTimeSpent" value="12573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -529,8 +537,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Day2/LC771JewelsandStones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="330">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Day2/LC49GroupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
         </state>
       </provider>
     </entry>
