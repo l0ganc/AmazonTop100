@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fed4e7c-fe5f-40c3-b92f-42b369bd6abb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/LC8StringToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/LC239SlidingWindowMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Day3/LC155MinStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Day3/LC239SlidingWindowMaximum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Day3/LC8StringToInteger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,11 +60,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Day3/LC8StringToInteger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
               <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Day3/LC155MinStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Day3/LC239SlidingWindowMaximum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="351" selection-start-line="351" selection-end-line="351" />
+              <folding>
+                <element signature="e#11238#11239#0" expanded="true" />
+                <element signature="e#19417#19418#0" expanded="true" />
+                <element signature="e#19452#19453#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="830" selection-start-line="830" selection-end-line="830" />
             </state>
           </provider>
         </entry>
@@ -117,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Day3/LC139WordBreak.java" />
         <option value="$PROJECT_DIR$/src/main/java/Day3/LC140WordBreakII.java" />
         <option value="$PROJECT_DIR$/src/main/java/Day3/LC8StringToInteger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Day3/LC155MinStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Day3/LC239SlidingWindowMaximum.java" />
       </list>
     </option>
   </component>
@@ -128,8 +184,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="532" />
-    <option name="y" value="23" />
+    <option name="x" value="302" />
+    <option name="y" value="56" />
     <option name="width" value="1199" />
     <option name="height" value="958" />
   </component>
@@ -189,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560915254518" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560917068833" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -209,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC140WordBreakII">
+  <component name="RunManager" selected="Application.LC239SlidingWindowMaximum">
     <configuration name="LC127WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day3.LC127WordLadder" />
       <module name="AmazonTop100" />
@@ -262,12 +318,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC380InsertDeleteGetRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day2.LC380InsertDeleteGetRandom" />
+    <configuration name="LC239SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.LC239SlidingWindowMaximum" />
       <module name="AmazonTop100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day2.*" />
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC239SlidingWindowMaximum" />
         <item itemvalue="Application.LC140WordBreakII" />
         <item itemvalue="Application.LC139WordBreak" />
         <item itemvalue="Application.LC127WordLadder" />
         <item itemvalue="Application.LC17LetterCombinationsofaPhoneNumber" />
-        <item itemvalue="Application.LC380InsertDeleteGetRandom" />
       </list>
     </recent_temporary>
   </component>
@@ -296,17 +352,17 @@
       <option name="presentableId" value="Default" />
       <updated>1559877486448</updated>
       <workItem from="1559877490463" duration="1082000" />
-      <workItem from="1560546183953" duration="22703000" />
+      <workItem from="1560546183953" duration="24449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23785000" />
+    <option name="totallyTimeSpent" value="25531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21245421" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20695971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -316,7 +372,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.32857144" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44044945" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4397959" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -349,6 +405,12 @@
           <line>53</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Day3/LC239SlidingWindowMaximum.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -698,6 +760,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Day3/LC155MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="830" selection-start-line="830" selection-end-line="830" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="351" selection-start-line="351" selection-end-line="351" />
+          <folding>
+            <element signature="e#11238#11239#0" expanded="true" />
+            <element signature="e#19417#19418#0" expanded="true" />
+            <element signature="e#19452#19453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Day3/LC239SlidingWindowMaximum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
