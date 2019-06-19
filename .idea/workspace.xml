@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fed4e7c-fe5f-40c3-b92f-42b369bd6abb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/LC763PartitionLabels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/LC102BinaryTreeLevelOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Day3/LC126WordLadderII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Day3/LC127WordLadder.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Day4/LC199BinaryTreeRightSideView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+              <caret line="100" column="7" lean-forward="true" selection-start-line="100" selection-start-column="7" selection-end-line="104" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#453#454#0" expanded="true" />
@@ -86,13 +77,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Day4/LC763PartitionLabels.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="528">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Day4/LC102BinaryTreeLevelOrderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Day4/LC387FirstUniqueCharacterinaString.java" />
         <option value="$PROJECT_DIR$/src/main/java/Day4/LC199BinaryTreeRightSideView.java" />
         <option value="$PROJECT_DIR$/src/main/java/Day4/LC763PartitionLabels.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Day4/LC102BinaryTreeLevelOrderTraversal.java" />
       </list>
     </option>
   </component>
@@ -255,7 +262,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560981945988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560987713352" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -280,9 +287,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC763PartitionLabels">
-    <configuration name="LC199BinaryTreeRightSideView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day4.LC199BinaryTreeRightSideView" />
+  <component name="RunManager" selected="Application.LC102BinaryTreeLevelOrderTraversal">
+    <configuration name="LC102BinaryTreeLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day4.LC102BinaryTreeLevelOrderTraversal" />
       <module name="AmazonTop100" />
       <extension name="coverage">
         <pattern>
@@ -294,12 +301,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC239SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day3.LC239SlidingWindowMaximum" />
+    <configuration name="LC199BinaryTreeRightSideView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day4.LC199BinaryTreeRightSideView" />
       <module name="AmazonTop100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day3.*" />
+          <option name="PATTERN" value="Day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,11 +349,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC102BinaryTreeLevelOrderTraversal" />
         <item itemvalue="Application.LC763PartitionLabels" />
         <item itemvalue="Application.LC199BinaryTreeRightSideView" />
         <item itemvalue="Application.LCCountPrimes" />
         <item itemvalue="Application.LC78Subsets" />
-        <item itemvalue="Application.LC239SlidingWindowMaximum" />
       </list>
     </recent_temporary>
   </component>
@@ -364,16 +371,15 @@
       <workItem from="1560546183953" duration="24449000" />
       <workItem from="1560917714471" duration="2068000" />
       <workItem from="1560924668081" duration="512000" />
-      <workItem from="1560977071132" duration="2999000" />
+      <workItem from="1560977071132" duration="4039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31110000" />
+    <option name="totallyTimeSpent" value="32150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23321123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -425,11 +431,16 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Day4/LC763PartitionLabels.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC545BoundaryOfBinaryTree.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -858,10 +869,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Day4/LC763PartitionLabels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Day4/LC199BinaryTreeRightSideView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <caret line="100" column="7" lean-forward="true" selection-start-line="100" selection-start-column="7" selection-end-line="104" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#453#454#0" expanded="true" />
@@ -870,12 +892,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Day4/LC763PartitionLabels.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Day4/LC102BinaryTreeLevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="618">
+          <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
           </folding>
         </state>
       </provider>
