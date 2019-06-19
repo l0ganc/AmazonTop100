@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fed4e7c-fe5f-40c3-b92f-42b369bd6abb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/LC139WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/LC140WordBreakII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,14 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Day3/LC139WordBreak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="534">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="55" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Day3/LC140WordBreakII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/main/java/OOD/blackjack/Hand.java" />
         <option value="$PROJECT_DIR$/src/main/java/Day3/LC127WordLadder.java" />
         <option value="$PROJECT_DIR$/src/main/java/Day3/LC139WordBreak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Day3/LC140WordBreakII.java" />
       </list>
     </option>
   </component>
@@ -107,9 +117,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="728" />
-    <option name="y" value="45" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="532" />
+    <option name="y" value="23" />
     <option name="width" value="1199" />
     <option name="height" value="958" />
   </component>
@@ -169,7 +179,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560912117822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560914154860" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -189,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC139WordBreak">
+  <component name="RunManager" selected="Application.LC140WordBreakII">
     <configuration name="LC127WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day3.LC127WordLadder" />
       <module name="AmazonTop100" />
@@ -216,12 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC17LetterCombinationsofaPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day2.LC17LetterCombinationsofaPhoneNumber" />
+    <configuration name="LC140WordBreakII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.LC140WordBreakII" />
       <module name="AmazonTop100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day2.*" />
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,8 +239,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC215KthLargestElementinanArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day2.LC215KthLargestElementinanArray" />
+    <configuration name="LC17LetterCombinationsofaPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day2.LC17LetterCombinationsofaPhoneNumber" />
       <module name="AmazonTop100" />
       <extension name="coverage">
         <pattern>
@@ -257,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC140WordBreakII" />
         <item itemvalue="Application.LC139WordBreak" />
         <item itemvalue="Application.LC127WordLadder" />
         <item itemvalue="Application.LC17LetterCombinationsofaPhoneNumber" />
         <item itemvalue="Application.LC380InsertDeleteGetRandom" />
-        <item itemvalue="Application.LC215KthLargestElementinanArray" />
       </list>
     </recent_temporary>
   </component>
@@ -276,17 +286,18 @@
       <option name="presentableId" value="Default" />
       <updated>1559877486448</updated>
       <workItem from="1559877490463" duration="1082000" />
-      <workItem from="1560546183953" duration="20732000" />
+      <workItem from="1560546183953" duration="21930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21814000" />
+    <option name="totallyTimeSpent" value="23012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15018316" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21245421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -295,12 +306,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.3290993" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44044945" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" visible="true" weight="0.29081634" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.501221" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4993895" weight="0.32959184" />
@@ -659,11 +670,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Day3/LC139WordBreak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="534">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="55" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Day3/LC140WordBreakII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
         </state>
       </provider>
     </entry>
