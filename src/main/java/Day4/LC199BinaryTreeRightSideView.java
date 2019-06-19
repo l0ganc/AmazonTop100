@@ -67,6 +67,12 @@ public class LC199BinaryTreeRightSideView {
 
     // time = O(n)  space = O(n)
     // dfs way
+
+    /**
+     * (1) the traverse of the tree is NOT standard pre-order traverse. It checks the RIGHT node first and then the LEFT
+     * (2) the line to check currDepth == result.size() makes sure the first element of that level will be added to the result list
+     * (3) if reverse the visit order, that is first LEFT and then RIGHT, it will return the left view of the tree.
+     */
     public static List<Integer> rightSideView2(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         if (root == null) {
