@@ -27,6 +27,8 @@ public class LC5LongestPalindromicSubstring {
         int max = Integer.MIN_VALUE;
         String res = "";
         boolean[][] dp = new boolean[n][n];
+        int start = 0;
+        int end = 0;
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -34,13 +36,15 @@ public class LC5LongestPalindromicSubstring {
                 if (dp[i][j]) {
                     if (j - i + 1 > max) {
                         max = j - i + 1;
-                        res = s.substring(i, j + 1);
+                        start = i;
+                        end = j;
+                        //res = s.substring(i, j + 1);
                     }
                 }
             }
         }
 
-        return res;
+        return s.substring(start, end + 1);
     }
 
     public static void main(String[] args) {
