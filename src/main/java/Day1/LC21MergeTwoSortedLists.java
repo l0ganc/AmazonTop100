@@ -24,11 +24,10 @@ public class LC21MergeTwoSortedLists {
         ListNode cur = dummy;
 
         while (l1 != null && l2 != null) {
-            if (l1 != null) {
+            if (l1.val < l2.val) {
                 cur.next = l1;
                 l1 = l1.next;
-            }
-            if (l2 != null) {
+            } else {
                 cur.next = l2.next;
                 l2 = l2.next;
             }
