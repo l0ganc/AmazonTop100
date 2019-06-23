@@ -20,7 +20,7 @@ public class LC235LowestCommonAncestorofaBinarySearchTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         TreeNode cur = root;
 
-        while (root != null) {
+        while (cur != null) {
             if (p.val > cur.val && q.val > cur.val) {
                 cur = cur.right;
             } else if (p.val < cur.val && q.val < cur.val) {
