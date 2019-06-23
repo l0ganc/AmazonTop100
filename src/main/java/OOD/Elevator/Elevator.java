@@ -48,7 +48,7 @@ public class Elevator {
             if (r.getLevel() >= currLevel + 1) {
                 upStops.set(r.getLevel() - 1, true);
             }
-        } else if (status == Status.UP) {
+        } else if (status == Status.DOWN) {
             if (r.getLevel() <= currLevel + 1) {
                 downStops.set(r.getLevel() - 1, true);
             }
