@@ -19,7 +19,7 @@ public class Restaurant {
         for (Table t : tables) {
             if (t.isAvailable()) {
                 if (t.getCapacity() >= p.getSize()) {
-                    t.markAvailable();
+                    t.markUnavailable();
                     return;
                 }
             }
